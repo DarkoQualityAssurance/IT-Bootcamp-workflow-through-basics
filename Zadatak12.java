@@ -9,8 +9,6 @@ public class Zadatak12 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-//        System.out.println("Uneti broj od 1 do 25 : ");
-//        int unetiBroj = input.nextInt();
         int parniBroj = 0;
 
         while (true) {
