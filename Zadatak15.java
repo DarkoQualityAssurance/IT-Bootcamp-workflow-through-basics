@@ -10,9 +10,9 @@ public class Zadatak15 {
         Scanner input = new Scanner(System.in);
         System.out.println("Unesite brojeve :");
         int[] niz = new int[] {input.nextInt(), input.nextInt(), input.nextInt(), input.nextInt(), input.nextInt(), input.nextInt()};
-//na ovaj nacin unosimo iz Scannera podatke u niz kada ih ima vise
+
         for (int i = 0 ; i < niz.length ; i++ ){
-            if(i % 2 != 0 ){//index svakog elementa u nizu delimo sa 2 da vidimo da li je neparan
+            if(i % 2 != 0 ){
                 System.out.println("Elementi sa naparnim indexom su : " + niz[i]);
             }
         }
