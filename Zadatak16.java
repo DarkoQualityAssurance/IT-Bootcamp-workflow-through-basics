@@ -15,7 +15,6 @@ public class Zadatak16 {
             System.out.println("Uneti brojeve : ");
             niz[i] = input.nextInt();
         }
-//        int[] niz = new int[]{input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt()};
 
         for (int i = niz.length-1;i>=0;i--){
             System.out.println("Elementi niza u obrnutom redosledu : " + niz[i]);
